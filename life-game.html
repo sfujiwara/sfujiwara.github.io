@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+    <script src="js/cell-game.js"></script>
+    <title>Cell Game</title>
+    <link href="style-cell-game.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div id="main" class="container">
+      <h1>Life Game</h1>
+      <form>
+        <table>
+          <tr>
+            <td>#row</td>
+            <td><input type="number" id="nrow" value=30></td>
+          </tr>
+          <tr>
+            <td>#col</td>
+            <td><input type="number" id="ncol" value=30></td>
+          </tr>
+          <tr>
+            <td>#unit</td>
+            <td><input type="number" id="nunit" value=20></td>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <td><input type="button" value="Reset" onclick="drawMap()"></td>
+            <td><input type="button" value="1 step: ->" onclick="update()"></td>
+            <td><input type="button" value="Auto: ->>" onclick="startAutoUpdate()"></td>
+            <td><input type="button" value="Stop: ■" onclick="stopAutoUpdate()"></td>
+            <td><input type="button" value="Add units" onclick="arrangeUnits()"></td>
+          </tr>
+        </table>
+      </form>
+      <div id="map"></div>
+    </div>
+    <script>drawMap();</script>
+  </body>
+
+</html>
