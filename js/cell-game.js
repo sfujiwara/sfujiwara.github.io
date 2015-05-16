@@ -169,7 +169,7 @@ var autoUpdate = false;
 
 function startAutoUpdate() {
   if (!autoUpdate) {
-    timer = setInterval(update, 100);
+    timer = setInterval(update, document.getElementById("interval").value);
     autoUpdate = true;
   }
 }
