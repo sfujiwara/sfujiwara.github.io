@@ -1,27 +1,30 @@
-/*-----特定のタグ全般-----*/
+/*----- 特定のタグ全般 -----*/
 body{
   margin: 0px;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 h1{
-  font-size: 40px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica,Arial, serif;
+  font-size: 50px;
+  font-family: "Caveat", "Helvetica Neue", Helvetica,Arial, serif;
 }
 h2
 {
+  font-size: 32px;
   border-bottom:solid 2px;
   color:#2E8B57;
   margin-bottom:15px;
   margin-top:30px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica,Arial, serif;
+  font-family: "Caveat", "Helvetica Neue", Helvetica,Arial, serif;
 }
 h3
 {
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica,Arial, serif;
+  font-size: 30px;
+  font-family: "Caveat", "Helvetica Neue", Helvetica,Arial, serif;
 }
 h4
 {
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica,Arial, serif;
+  font-size: 25px;
+  font-family: "Caveat", "Helvetica Neue", Helvetica,Arial, serif;
 }
 li
 {
@@ -58,7 +61,7 @@ a:hover
   height:23px;
   text-align:center;
   font-weight:bold;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica,Arial, serif;
+  font-family: "Architects Daughter", "Helvetica Neue", Helvetica,Arial, serif;
 }
 
 #topmenu a
@@ -88,7 +91,7 @@ a:hover
 {
   width:100%;
   margin:auto;
-  border-bottom: dotted 2px #999999;
+  //border-bottom: dotted 2px #999999;
 }
 #base_bottom
 {
